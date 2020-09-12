@@ -171,7 +171,7 @@ console.log(`Nasci em ${nascimento}`)
 
 // Podemos usar o método toLocaleString para formatar a data
 
-const dataFormatada = hoje.toLocaleDateString('pt-br')
+const dataFormatada = hoje.toLocaleDateString('pt-BR')
 console.log(dataFormatada)
 
 
@@ -181,7 +181,7 @@ console.log(dataFormatada)
 const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
 
 
-const dataLonga = hoje.toLocaleDateString('pt-br', options)
+const dataLonga = hoje.toLocaleDateString('pt-BR', options)
 console.log(dataLonga)
 
 
